@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mouse Hover Shinchan Eyes Rolling Effect</title>
+
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="shinchan">
+            <div class="eyes">
+                <div class="eye">
+                    <div class="balls"></div>
+                </div>
+
+                <div class="eye">
+                    <div class="balls"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let balls = document.querySelectorAll(".balls");
+
+            document.onmousemove = function () {
+                let x = (event.clientX * 100) / window.innerWidth - 50 + "%";
+                let y = (event.clientY * 100) / window.innerHeight - 50 + "%";
+
+                for (let i = 0; i < balls.length; i++) {
+                    balls[i].style.transform = "translate(" + x + "," + y + ")";
+                }
+            };
+        </script>
+    </body>
+</html>

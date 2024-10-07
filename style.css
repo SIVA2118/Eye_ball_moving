@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.shinchan {
+    height: 500px;
+    width: 360px;
+    background-image: url("./shinchan.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.eyes {
+    height: 62px;
+    width: 175px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    margin: 89px 112px;
+    transform: rotate(12deg);
+    display: flex;
+    justify-content: space-between;
+}
+
+.eye {
+    height: 100%;
+    width: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+.balls {
+    height: 40%;
+    width: 40%;
+    background-image: url("./eyeBall.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
