@@ -13,3 +13,10 @@ This project features a simple *Doremon Eye Roll Animation* created using HTML, 
 - *HTML5* for structuring the animation interface.
 - *CSS3* for styling and creating visual effects.
 - *JavaScript* for controlling the animation and user interactions.
+
+
+
+
+
+
+![eye_ball](https://github.com/user-attachments/assets/5ab4b02c-6aa3-4a5c-b91e-1164d5ac6df1)
